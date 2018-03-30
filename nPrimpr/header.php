@@ -12,7 +12,7 @@
 <head>
 	<title><?php bloginfo('name'); ?><?php wp_title(); ?></title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="https://unpkg.com/vue/dist/vue.js"></script>
+	<script src="https://kr.vuejs.org/js/vue.min.js"></script>
 	<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>" type="text/css" media="screen" />
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
