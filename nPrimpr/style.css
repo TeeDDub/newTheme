@@ -3,7 +3,7 @@ Theme Name: Press Impress V2
 Theme URI: http://pressimpress.kr
 Author: Min Lee
 Description: Wordpress theme for Press Impress
-Version: 1.0
+Version: 1.1
 
 */
 
@@ -31,6 +31,8 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+
+
 
 #content {
   padding-top: 110px;

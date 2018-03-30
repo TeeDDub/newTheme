@@ -26,7 +26,7 @@
 </head>
 
 <body <?php body_class(); ?>>
-  <header id="masthead" class="site-header" role="banner">
+  	<header id="masthead" class="site-header" role="banner">
 		<nav id="site-name">
 			<?
 			if( has_custom_logo() ) {
@@ -36,6 +36,8 @@
 			<?} 
 			?>
 		</nav>
+  	</header>
+  	<div id="navigation-bar">
 		<div id="menu-drop" onclick=""> &#9776; </div>
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<?php
@@ -45,9 +47,8 @@
 					'theme_location' => 'primary',
 				) );
 			?>
-		</nav>
-  </header><!-- .site-header -->
-
+		</nav><!-- .site-header -->
+	</div>
 	<script>
 
 	$(document).on('click', '#menu-drop',  function(event) {
