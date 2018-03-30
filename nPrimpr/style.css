@@ -48,11 +48,6 @@ body {
   background: black;
 }
 
-
-#content {
-  padding-top: 150px;
-}
-
 .custom-logo {
   height: 100%;
   width: auto;
@@ -153,6 +148,12 @@ ul.children {
   margin: 0 auto;
   max-width: 1024px;
   width: 80%;
+  padding-top: 150px;
+  padding-bottom: 5%;
+}
+
+.content-area{
+  width: 100%;
 }
 
 .entry-title a{
@@ -160,6 +161,9 @@ ul.children {
   text-decoration: none;
 }
 
+.entry-content{
+  width: 100%;
+}
 .alignleft {
 	float: left;
 }
