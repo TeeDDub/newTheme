@@ -36,8 +36,7 @@
 			<?} 
 			?>
 		</nav>
-  	</header>
-  	<div id="navigation-bar">
+		<div id="navigation-bar">
 		<div id="menu-drop" onclick=""> &#9776; </div>
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<?php
@@ -47,8 +46,11 @@
 					'theme_location' => 'primary',
 				) );
 			?>
+		<div id="menu-drop" onclick=""> &#9776; </div>	
 		</nav><!-- .site-header -->
 	</div>
+
+  	</header>
 	<script>
 
 	$(document).on('click', '#menu-drop',  function(event) {

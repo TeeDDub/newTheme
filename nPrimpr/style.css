@@ -1,5 +1,5 @@
 /*
-Theme Name: Press Impress V2
+Theme Name: Press Impress V2.1
 Theme URI: http://pressimpress.kr
 Author: Min Lee
 Description: Wordpress theme for Press Impress
@@ -21,29 +21,40 @@ body {
 
 #masthead {
   width: 100%;
-  height: 100px;
+  height: 150px;
 
   position: fixed;
   top: 0;
 
   background-color: white;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-
-
-#content {
-  padding-top: 110px;
 }
 
 #site-name {
-  padding-left: 30px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#navigation-bar {
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+  background: black;
+}
+
+
+#content {
+  padding-top: 150px;
 }
 
 .custom-logo {
-  height: 100px;
+  height: 100%;
   width: auto;
 }
 
@@ -56,6 +67,7 @@ body {
 
 #menu-drop {
   display: none;
+  text-align: center;
 }
 
 .main-navigation {
@@ -63,18 +75,15 @@ body {
 }
 
 @media screen and (max-width: 1028px){
+
   #menu-drop {
     display: block;
     font-size: 1.5em;
-    margin-right: 30px;
-    background: white;
-    /* border: solid 1px black;
-    border-radius: 5px; */
+    background: black;
     cursor: pointer;
-    width : 50px;
+    width : 100%;
     text-align : center;
   }
-
   nav#site-navigation {
     display: none;
   }
@@ -91,7 +100,7 @@ body {
     left:0;
     font-size: 1.5em;
     text-align: center;
-    background-color: white;
+    background-color: black;
     z-index: 5;
   }
 
@@ -117,7 +126,7 @@ body {
 }
 
 .nav-menu a{
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
@@ -152,12 +161,10 @@ ul.children {
 }
 
 .alignleft {
-	display: inline;
 	float: left;
 }
 
 .alignright {
-	display: inline;
 	float: right;
 }
 
