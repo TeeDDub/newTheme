@@ -59,13 +59,14 @@
   margin-top: 0.3em;
 }
 nav.menu-tab{
-  position: fixed;
-  border-bottom: 1px solid #ccc;
+  x`border-bottom: 1px solid #ccc;
   background-color: white;
 }
 
 #menu-wrap{
-  width: auto;
+  width: 100%;
+  position: fixed;
+  left: 0;
   background-color: white;
 }
 
