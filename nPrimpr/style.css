@@ -21,7 +21,7 @@ body {
 
 #masthead {
   width: 100%;
-  height: 150px;
+  height: 15vh;
 
   position: fixed;
   top: 0;
@@ -30,7 +30,7 @@ body {
 }
 
 #site-name {
-  height: 100px;
+  height: 10vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -38,7 +38,7 @@ body {
 }
 
 #navigation-bar {
-  height: 50px;
+  height: 5vh;
 
   display: flex;
   align-items: center;
@@ -49,13 +49,14 @@ body {
 }
 
 .custom-logo {
-  height: 100px;
+  height: 10vh;
   width: auto;
 }
 
 .site-title a{
   color: black;
   text-decoration: none;
+  margin: 0;
 }
 
 /* Navigation */
@@ -73,7 +74,7 @@ body {
 
   #menu-drop {
     display: block;
-    font-size: 1.5em;
+    font-size: 1em;
     background: black;
     cursor: pointer;
     width : 100%;
@@ -91,9 +92,9 @@ body {
     display: block;
     position: fixed;
     width: 100%;
-    top: 100px;
+    top: 10vh;
     left:0;
-    font-size: 1.5em;
+    font-size: 1em;
     text-align: center;
     background-color: black;
     z-index: 5;
@@ -147,8 +148,14 @@ ul.children {
   margin: 0 auto;
   max-width: 1024px;
   width: 80%;
-  padding-top: 150px;
+  padding-top: 15vh;
   padding-bottom: 5%;
+}
+
+@media screen and (max-width: 700px){
+  #content {
+    width: 100%;
+  }
 }
 
 .content-area{
